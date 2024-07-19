@@ -1,0 +1,104 @@
+.container{
+    border:2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    /* background: url(clock.jpeg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:50vw;
+    width:50vw;
+    box-shadow: 10px 10px 80px 12px lightblue;
+
+}
+.a{
+    position: absolute;
+    color: aqua;
+    /* width : 2vw;
+    height: 2vw; */
+    font-size: 7vw;
+}
+#a7{
+    top: 39vw;
+    left: 37vw;
+}
+#a8{
+    top: 32vw;
+    left: 30vw;
+}
+#a5{
+    top: 39vw;
+    left: 58vw;
+}
+#a4{
+    top: 32vw;
+    left: 66vw;
+}
+#a10{
+    top: 11vw;
+    left: 30vw;
+}
+#a11{
+    top: 4vw;
+    left: 37vw;
+}
+#a1{
+    top: 4vw;
+    left: 58vw;
+}
+#a2{
+    top: 11vw;
+    left: 66vw;
+    text-shadow: 10px 10px 80px 12px lightblue;
+}
+#a9{
+    top:20vw;
+    left:27.5vw;
+}
+#a6{
+    left:48vw;
+    top:42vw;
+}
+#a3{
+    left:70vw;
+    top:20vw;
+}
+#a12{
+    left:46vw;
+}
+
+.hour,.min,.sec{
+    background-color:aqua;
+    transform-origin: bottom;
+    box-shadow: 1px 1px 45px 1px lightblue;
+    position: absolute;
+    border: 2px solid;
+    border-radius: 150%;
+}
+
+.min{
+    top: 13vw;
+    left: 49vw;
+    /* background: black; */
+    position: absolute;
+    height: 13vw;
+    width: 0.7vw;
+}
+
+.hour{
+    top: 16vw;
+    left: 49vw;
+    /* background: black; */
+    position: absolute;
+    height: 10vw;
+    width: 1vw;
+    /* opacity:0.2; */
+}
+.sec{
+    top: 10vw;
+    left: 49.5vw;
+    /* background: black; */
+    position: absolute;
+    height: 16vw;
+    width: 0.5vw;
+    /* opacity: 0.5; */
+}
